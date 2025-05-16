@@ -1,0 +1,5 @@
+let name = prompt("Введите ваше имя:"); // Запрос Имени
+let birthYear = prompt ("Введите ваш год рождения:"); // Запрос даты рождения
+let currentYear = new Date().getFullYear(); // Приводим год рождения к числу и вычесляем возраст 
+let age = currentYear - +birthYear;
+alert(`${name}: ${age}`); // Выводим сообщение с использованием шаблонной строки
