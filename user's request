@@ -1,0 +1,6 @@
+let userInput = prompt ("Введите любое число:");
+let number = +userInput;
+let square = number * number;
+let cube = number * number * number;
+let message = `${number} \n ${square} \n ${cube}`;
+alert(message);
