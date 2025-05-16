@@ -1,6 +1,6 @@
-let userInput = prompt ("Введите любое число:");
-let number = +userInput;
-let square = number * number;
-let cube = number * number * number;
-let message = `${number} \n ${square} \n ${cube}`;
-alert(message);
+let userInput = prompt ("Введите любое число:"); // Запрос у пользователя  число
+let number = +userInput; // Приводим строку к числу
+let square = number * number; // Вычисляем квадрат 
+let cube = number * number * number; // Вычисляем куб
+let message = `${number} \n ${square} \n ${cube}`; // Формируем сообщение для вывода
+alert(message); // Выводим результат в alert
